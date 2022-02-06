@@ -1,0 +1,11 @@
+/*  Code based on https://alvarotrigo.com/blog/css-animations-scroll/ */
+.reveal {
+    opacity: 0;
+    transition: 1s all ease;
+    transform: translateY(150px);
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
